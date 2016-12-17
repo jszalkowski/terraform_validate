@@ -9,6 +9,9 @@ python:
   # maintainers to fix their pypy-dev package.
   - "pypy"
 # command to install dependencies
+os:
+  - linux
+  - osx
 install:
   - pip install unittest2
   - pip install 'coverage<4'
